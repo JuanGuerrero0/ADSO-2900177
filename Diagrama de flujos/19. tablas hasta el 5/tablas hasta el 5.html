@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas hasta el 5</title>
+</head>
+<body>
+    <script>
+        let contMulti;
+        let contTabla;
+        let multiplicador;
+        let tabla;
+        let contPares;
+        let contImpar;
+        let resultado;
+        
+        contTabla = 1;
+        multiplicador = 5;
+        tabla = 5;
+        contPares = 0;
+        contImpar = 0;
+
+
+        while( contTabla<=tabla){
+            let contMulti= 1;
+            while( contMulti<=multiplicador){
+                let resultado= contTabla * contMulti;
+                
+                if (resultado % 2 === 0) {
+                    console.log(contTabla + "x" + contMulti + "=" + resultado + " buzz");
+                 contPares++;
+        } else {
+            console.log(contTabla+ "x" + contMulti + "=" + resultado + "bass");
+             contImpar++;
+        }
+        contMulti=contMulti+1
+
+}
+contTabla=contTabla+1
+        }
+console.log("Total de números pares:" + contPares);
+console.log("Total de números impares:" + contImpar);
+
+</script>
+           
+    
+</body>
+</html>
