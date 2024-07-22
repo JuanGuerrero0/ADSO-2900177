@@ -1,0 +1,101 @@
+.hol{
+    background-color: #61a7ec;
+    
+}
+
+.principal{
+    float: left;
+    width: 1200px;
+}
+.periodo{
+    float: left;
+    width: 1200px;
+    height: 80px;
+}
+.elemento{
+    float:left;
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid rgb(0, 0, 0);
+}
+.vacio{
+    float:left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nombre{
+    text-align: center;
+    font-size: 50px;
+}
+.noMetal{
+    background: -webkit-linear-gradient(90deg,#c868e3,#8839af); background: linear-gradient(90deg,#68e370,#62af39); 
+}
+
+.metalAlcalino{
+    background: -webkit-linear-gradient(90deg,#ff8080,#f56161); background: linear-gradient(90deg,#d980ff,#ee61f5);
+}
+.alcalinoterreos{
+    background: -webkit-linear-gradient(90deg,#f8e4ad,#ffb74a); background: linear-gradient(90deg,#d25555,#ff4a4a);
+}
+.gasesNobles{
+    background: -webkit-linear-gradient(90deg,#61a7ec,#147588);  background: linear-gradient(90deg,#8fc7ff,#46c4de);
+}
+.halogenos{
+    background: linear-gradient(90deg,#f7b8b3,#f34f91); background: linear-gradient(90deg,#edbbdd,#c788c9);
+}
+.metaloides{
+    background: -webkit-linear-gradient(90deg,#58a353,#257220);  background: -webkit-linear-gradient(90deg,#f5f34e,#f3da4d);
+}    
+.otrosMetales{
+    background: linear-gradient(90deg,#ff9980,#f05b35);  background: linear-gradient(90deg,#9968f3,#355af0);
+}
+.metalesTrasicion{
+    background: linear-gradient(90deg,#f7f469,#fdc700); background: linear-gradient(90deg,#d76f24,#fd9c00);
+}
+.lantanidos{
+    background: -webkit-linear-gradient(90deg,#b7e660,#4de04d);  background: linear-gradient(90deg,#3fa7f1,#4d99e0);
+}
+.actinidos{
+    background: rgb(123, 178, 226);
+    background: linear-gradient(90deg, rgb(124, 163, 236) 0%, rgb(142, 181, 232) 39%);
+}
+
+.letra{
+    margin-bottom: -30px ;
+    
+}
+.simbolo{
+    font-size: 25px;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.masaAtomica{
+    font-size: 70%;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nombreElemento{
+    font-size: 55%;
+    text-align: left ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nombreElementoL{
+    font-size: 50%;
+    text-align: left ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.numeroAtomico{
+    font-size: 50%;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.animacion{
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.animacion:hover{
+    transform: scale(1.8);
+}
